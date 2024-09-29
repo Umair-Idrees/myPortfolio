@@ -1,0 +1,66 @@
+.experience{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ text-align: center;
+
+
+}
+.experienceTitle{
+    margin: 1rem 0;
+    font-size: 3rem; 
+}
+.company{
+    color: red;
+}
+.companyJoin{
+    color: red;
+    margin-bottom: 2rem;
+}
+.companyDesc{
+    max-width: 80%; 
+  margin: 0 auto; 
+  text-align: center; 
+  padding: 20px; 
+  font-size: 16px;
+  line-height: 1.5; 
+  font-weight: 300;
+  
+}
+
+.styled-list {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 20px auto; /* Adds margin above and below the list and centers it */
+    max-width: 70%;
+    text-align: left; /* Aligns the text to the left */
+  }
+  
+  .styled-list li {
+    border-radius: 5px; 
+    padding: 15px; 
+    margin: 10px 30px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s; 
+    background: rgb(70, 70, 70);
+  }
+  
+  .styled-list li:hover {
+    transform: translateY(-3px);
+    background: red; 
+  }
+  .job{
+    text-align: center;
+
+  }
+  .experienceTitle{
+    text-align: center;
+  }
+
+  

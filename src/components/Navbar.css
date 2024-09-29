@@ -1,0 +1,50 @@
+.nav{
+    background-color: rgb(30, 30, 30);
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+
+}
+.logo{
+    object-fit: cover;
+    height:3rem;
+    width: 4rem;
+}
+.mainMenu{
+    margin: 1rem;
+}
+.mainMenuList{
+    margin: 1.5rem;
+ 
+    cursor: pointer;
+}
+.mainMenuList:hover{
+    color:red;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid red;
+}
+.navButton{
+    background-color: white; 
+    color: #333; 
+    border: 1px solid red;
+    border-radius: 2rem; 
+    padding: 6px 12px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+.active{
+    color: red;
+    border-bottom: 3px solid red;
+    padding-bottom: 0.5rem;
+    
+}

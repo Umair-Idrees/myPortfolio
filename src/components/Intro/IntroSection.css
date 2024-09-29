@@ -1,0 +1,65 @@
+.mainIntro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 2rem;
+    overflow: hidden;
+    position: relative;
+    padding: 0 2rem;
+}
+.introImg{
+    position: absolute;
+    top:7rem;
+    right:0 ;
+    z-index: -1;
+    height: 80vh;
+    object-fit: cover;
+    padding: 0 5rem;
+    
+}
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding:5.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: red;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 300;
+    
+
+}
+.navBtn{
+    background-color: white; 
+    color: #333; 
+    border: 1px solid red;
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+@media screen and (max-width:840p){
+    .introImg{
+        right:-10vw
+    }
+    .introContect{
+        font-size: 10vw;
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
+}

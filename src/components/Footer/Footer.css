@@ -1,0 +1,44 @@
+.footer {
+    background-color: rgb(40, 40, 40); /* Dark background color */
+    color: white; /* Text color */
+    padding: 1rem 0; /* Padding for spacing */
+    text-align: center; /* Center text */
+    margin-top: 8rem
+}
+.footer-logo{
+    height: 100px;
+    width: 100px;
+}
+.footer-content {
+    max-width: 1200px; /* Max width of content */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.footer-links {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 1rem 0; /* Margin for spacing */
+    font-weight: 200;
+}
+
+.footer-links li {
+    display: inline; /* Display links in a row */
+    margin: 0 0.4rem; /* Space between links */
+
+}
+.footer-links li:hover {
+    
+    padding-bottom: 0.2rem;
+    border-bottom: 3px solid red;
+}
+
+.footer-links a {
+    color: white; /* Link color */
+    text-decoration: none; 
+}
+.footer-links a:hover {
+    color: red; /* Link color */
+    
+}
+
+

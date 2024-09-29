@@ -1,0 +1,53 @@
+.contactTitle{
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.contactDesc{
+    text-align: center;
+    font-weight: 300;
+}
+.contactForm {
+    margin: 1rem auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 90vw;
+    max-width: 65rem;
+}
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn { 
+    background: white;
+    border: 1px solid red;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+   
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-top: 0.5rem; 
+}
+
+.link { 
+    object-fit: cover;
+    height: 60px; 
+    width: 60px; 
+    margin: 0 0.75rem; 
+}
