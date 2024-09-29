@@ -1,4 +1,4 @@
-.experience{
+#experience{
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
     width: 100vw;
@@ -12,7 +12,7 @@
 
 }
 .experienceTitle{
-    margin: 1rem 0;
+ 
     font-size: 3rem; 
 }
 .company{
@@ -55,12 +55,6 @@
     transform: translateY(-3px);
     background: red; 
   }
-  .job{
-    text-align: center;
-
-  }
-  .experienceTitle{
-    text-align: center;
-  }
+  
 
   

@@ -1,5 +1,5 @@
 #portfolio{
-    margin: 8rem auto;
+    margin: 6rem auto;
     min-height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 60rem;
@@ -24,7 +24,7 @@ font-size: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 50vw;
     flex-wrap: wrap;
     max-width: 65rem;
 }
